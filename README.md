@@ -1,5 +1,5 @@
 # VoxSRC-23
-In this repository we provide the validation toolkit for the [VoxCeleb Speaker Recognition Challenge 2023](http://mm.kaist.ac.kr/datasets/voxceleb/voxsrc). The challenge consists of two main tasks, speaker verification and speaker diarisation, largely adopted from last year's development kit.
+In this repository we provide the validation toolkit for the [VoxCeleb Speaker Recognition Challenge 2023](https://mm.kaist.ac.kr/datasets/voxceleb/voxsrc/competition2023.html). The challenge consists of two main tasks, speaker verification and speaker diarisation, largely adopted from last year's development kit.
 
 This repository contains submodules. Please use the following command to clone the repository:
 
