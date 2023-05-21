@@ -18,7 +18,7 @@ Within speaker verification, we have three tracks (closed, open, and semi-superv
 
 ### Validation Data 
 This repository only provides the validation trial pairs for Track 1 and 2. For Track 3, please download using this [link](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2023/Track3_validation_trials.txt).
-The validation data consists of trial pairs of speech from the identities in the VoxCeleb1 dataset and additional data we've prepared. To download the audio files, please use this [link](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/data_workshop_2023/VoxSRC2023_val.zip). (Each trial pair consists of two single-speaker audio segments and can be found in `data/verif/VoxSRC2023_val.txt`. 
+The validation data consists of trial pairs of speech from the identities in the VoxCeleb1 dataset and additional data we've prepared. To download the audio files, please visit our website. (Each trial pair consists of two single-speaker audio segments and can be found in `data/verif/VoxSRC2023_val.txt`. 
          
 ### File Format 
 Your ouput file for scoring should be a single space-delimited text files containing pair of audio segments per line, each line containing three fields: 
