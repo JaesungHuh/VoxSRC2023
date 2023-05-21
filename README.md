@@ -150,7 +150,7 @@ is defined as the ratio between the intersection and union of two segmentations.
 
 ## Further Details 
 
-Please refer to the [Challenge Webpage](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/competition.html) for more information about the challenge.
+Please refer to the [Challenge Webpage](https://mm.kaist.ac.kr/datasets/voxceleb/voxsrc/competition2023.html) for more information about the challenge.
 
 ## Acknowledgements 
 The code from computing the DetectionCost is largely obtained from the excellent [KALDI toolkit](), and for computing the DER is from the excellent [DSCORE repo](https://github.com/nryant/dscore). Please read their licenses carefully before redistributing. 
