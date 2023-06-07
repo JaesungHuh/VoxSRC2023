@@ -83,8 +83,8 @@ We provide the baseline model + code in `baseline_verif.py`. The code uses ECAPA
 For speaker diarisation, we only have a single track. The goal is to break up multispeaker segments into sections of "who spoke when". In our case, each multispeaker audio file is independant (i.e. we will treat the sets of speakers in each file as disjoint), and the audio files will be of variable length. Our scoring code is obtained from the excellent [DSCORE repo](https://github.com/nryant/dscore).
 
 ### Validation Data 
-The validation data will be released on May 31st, 2023.
-We could use VoxConverse v0.3 dataset. (ver 0.3) Please visit this [link](https://mmai.io/datasets/voxconverse/) to download the wavfiles and rttm files.
+The validation data for this year is VoxConverse v0.3 dataset. (ver 0.3) 
+Please visit this [link](https://mmai.io/datasets/voxconverse/) to download the wavfiles and rttm files.
 
 ### File Format
 Your output file for scoring (as well as the ground truth labels for the validation set which we provide) must be a [Rich Transcription Time Marked  (RTTM)](#rttm) file.
