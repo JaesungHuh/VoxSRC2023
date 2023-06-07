@@ -74,7 +74,7 @@ negative rate. We follow the procedure outlined in Sec 3.1 of the NIST 2018 [Spe
 
 This is the PRIMARY metric for the challenge.
 
-# Baseline code
+### Baseline code
 We provide the baseline model + code in `baseline_verif.py`. The code uses ECAPA-TDNN trained with VoxCeleb1 and 2.
 **WARNING : Note that this model cannot be used for Track 1 since it is also trained with VoxCeleb1.**
 
@@ -147,6 +147,14 @@ We also report Jaccard error rate (JER), a metric introduced for [DIHARD II](htt
 measure typically used to evaluate the output of image segmentation systems and
 is defined as the ratio between the intersection and union of two segmentations.
 
+### Baseline code
+There are several baseline models that you could run. Please take a look.
+
+- [pyannote](https://huggingface.co/pyannote/speaker-diarization)
+- [SimpleDiarization](https://github.com/JaesungHuh/SimpleDiarization)
+- [whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)
+- [wespeaker](https://github.com/wenet-e2e/wespeaker)
+  
 
 ## Further Details 
 
